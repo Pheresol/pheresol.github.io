@@ -15,9 +15,11 @@
         }
         header {
             text-align: center;
-            padding: 20px 0;
+            margin-bottom: 40px;
+                    
+        <img src="Black & White Minimalist Signature Personal Brand Logo.png" alt="Pheresol Logo" class="logo">
         }
-        https://github.com/Pheresol/pheresol.github.io/blob/main/Black%20%26%20White%20Minimalist%20Signature%20Personal%20Brand%20Logo.png.logo {
+        .logo {
             max-width: 200px;
             margin-bottom: 20px;
         }
@@ -25,17 +27,15 @@
             color: #2c3e50;
         }
         .services {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 20px;
-            margin: 30px 0;
+            margin-bottom: 40px;
         }
         .service-card {
             background: #f9f9f9;
-            border-radius: 8px;
             padding: 20px;
-            width: 250px;
+            border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
         .service-card h3 {
@@ -44,11 +44,10 @@
         }
         .contact {
             text-align: center;
+            padding: 30px;
             background: #2c3e50;
             color: white;
-            padding: 30px;
             border-radius: 8px;
-            margin-top: 30px;
         }
         a {
             color: #3498db;
@@ -57,16 +56,11 @@
         a:hover {
             text-decoration: underline;
         }
-        .email {
-            font-size: 1.2em;
-            font-weight: bold;
-            color: #fff;
-        }
     </style>
 </head>
 <body>
     <header>
-        <!-- Replace with your actual logo file -->
+        <!-- Replace with your actual logo -->
         <img src="pheresol-logo.png" alt="Pheresol Logo" class="logo">
         <h1>Business Solutions That Drive Growth</h1>
         <p>Expert services to help your business thrive in the digital age</p>
@@ -77,33 +71,42 @@
             <h3>Data Analytics</h3>
             <p>Transform raw data into actionable insights that drive business decisions and growth strategies.</p>
         </div>
+        
         <div class="service-card">
             <h3>AI Solutions</h3>
-            <p>Leverage artificial intelligence to automate processes and gain competitive advantage.</p>
+            <p>Implement cutting-edge artificial intelligence to automate processes and enhance customer experiences.</p>
         </div>
+        
         <div class="service-card">
             <h3>Video Editing</h3>
-            <p>Professional video editing services to create engaging content for your audience.</p>
+            <p>Professional video editing services to create engaging content that captures your audience's attention.</p>
         </div>
+        
         <div class="service-card">
             <h3>Content Marketing</h3>
-            <p>Strategic content creation and distribution to attract and retain your target audience.</p>
+            <p>Strategic content creation and distribution to attract, engage, and retain your target audience.</p>
         </div>
+        
         <div class="service-card">
             <h3>Thumbnail Design</h3>
-            <p>Eye-catching thumbnails that increase click-through rates and viewer engagement.</p>
+            <p>Eye-catching thumbnails that increase click-through rates and viewership for your videos.</p>
+        </div>
+        
+        <div class="service-card">
+            <h3>Landing Page Design</h3>
+            <p>High-converting landing pages designed to turn visitors into customers.</p>
+        </div>
+        
+        <div class="service-card">
+            <h3>Website Design</h3>
+            <p>Beautiful, functional websites that represent your brand and deliver results.</p>
         </div>
     </section>
 
     <section class="contact">
-        <h2>Ready to Elevate Your Business?</h2>
-        <p>Contact us today to discuss how we can help you achieve your goals</p>
-        <p class="email">contact@pheresol.com</p>
-        <!-- Replace with your actual email -->
+        <h2>Ready to Grow Your Business?</h2>
+        <p>Contact us today to discuss how we can help you achieve your goals.</p>
+        <p><a href="mailto:your-email@pheresol.com" style="color: white; font-weight: bold;">your-email@pheresol.com</a></p>
     </section>
-
-    <footer style="text-align: center; margin-top: 40px; padding: 20px;">
-        <p>&copy; 2023 Pheresol. All rights reserved.</p>
-    </footer>
 </body>
 </html>
